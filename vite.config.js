@@ -17,7 +17,7 @@ export default defineConfig({
   server: {
     proxy: {
       '^/api': {
-        target: 'http://www.laolinyun.cn',
+        target: '',
         rewrite: (path) => path.replace(/^\/api/, ''),
         changeOrigin: true,
       },
