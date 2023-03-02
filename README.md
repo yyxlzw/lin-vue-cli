@@ -10,6 +10,10 @@ vue-router: 4.1.5
 搭建的脚手架
 
 1、安装所有依赖
-``` npm install ```
+``` 
+npm install
+```
 2、启动项目
-``` npm run dev ```
+```
+npm run dev 
+```
